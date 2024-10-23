@@ -1,6 +1,11 @@
 #!/usr/bin/python3
-
 import sys
+
+def tounm(s):
+    try:
+        return int(s)
+    except:
+        return float(s)
 
 ans = 0
 for line in sys.stdin:
