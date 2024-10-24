@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+# SPDX-FileCopyrightText: 2024 Ryuichi Ueda <s23c1148re@s.chibakoudai.jp>
+
 import sys
 
 def tounm(s):
