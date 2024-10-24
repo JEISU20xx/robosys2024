@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-# SPDX-FileCopyrightText: 2024 Ryuichi Ueda <s23c1148re@s.chibakoudai.jp>
+# SPDX-FileCopyrightText: 2024 Ryuichi Ueda
+# SPDX-License-Identifier: GPL-3.0-only
 
 import sys
 
