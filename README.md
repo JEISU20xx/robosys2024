@@ -9,7 +9,7 @@
     - テスト済みバージョン3.7~3.12
 
 ## テスト環境
-- Ubuntu 24.04.6 LTS
+- Ubuntu 20.04.6 LTS
 
 ## Copyright
 © 2024 Junya Wada
