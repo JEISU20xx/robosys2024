@@ -13,7 +13,6 @@ int main(){
         while((c = getchar()) != '\n'){
             if(isalpha(c)){
                 c = tolower(c);
-                
                 if(c == 'a') printf("・ー");
                 else if(c == 'b') printf("ー・・・");
                 else if(c == 'c') printf("ー・ー・");
@@ -41,9 +40,23 @@ int main(){
                 else if(c == 'z') printf("ーー・・");
             }
 
-            else if(isdigit(c) || c == '.'){
-                printf("%c",c);
-            }
+            else if(c == '0') printf("ーーーーー");
+            else if(c == '1') printf("・ーーーー");
+            else if(c == '2') printf("・・ーーー");
+            else if(c == '3') printf("・・・ーー");
+            else if(c == '4') printf("・・・・ー");
+            else if(c == '5') printf("・・・・・");
+            else if(c == '6') printf("ー・・・・");
+            else if(c == '7') printf("ーー・・・");
+            else if(c == '8') printf("ーーー・・");
+            else if(c == '9') printf("ーーーー・");
+
+            else if(c == '.') printf("・ー・ー・ー");
+            else if(c == ',') printf("ーー・・ーー");
+            else if(c == '?') printf("・・ーー・・");
+            else if(c == '-') printf("ー・・・・ー");
+            else if(c == '/') printf("ー・・ー・");
+            else if(c == '@') printf("・ーー・ー・");
         }
         printf("\n");
     }
