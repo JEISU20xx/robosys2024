@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -xv
 # SPDX-FileCopyrightText: 2024 Junya Wada
 # SPDX-License-Identifier: GPL-3.0-only
 
