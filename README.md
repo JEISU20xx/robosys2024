@@ -2,6 +2,14 @@
 [![test](https://github.com/JEISU20xx/robosys2024/actions/workflows/test.yml/badge.svg)](https://github.com/JEISU20xx/robosys2024/actions/workflows/test.yml)
 
 ロボットシステム学講義用リポジトリ
+対応する文字をモールス信号に変換するmorseコマンドを作成しました。
+
+##リポジトリのダウンロード方法
+
+1\. ターミナルで以下のコードを入力し、リポジトリをクローンしてください。
+```rb
+git clone https://github.com/JEISU20xx/robosys2024.git
+```
 
 ## morseコマンド
 ### 概要
@@ -22,11 +30,13 @@
 |     |     |     |     |     |     |     |     |
 |.    |,    |?    |-    |/    |@    |     |     |
 
-## 必要なソフトウェア
+
+##動作環境
+### 必要なソフトウェア
 - Python
     - テスト済みバージョン3.7~3.12
 
-## テスト環境
+### テスト環境
 - Ubuntu 20.04.6 LTS
 
 ## Copyright
