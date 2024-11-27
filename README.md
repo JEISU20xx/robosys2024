@@ -10,6 +10,7 @@
 ```rb
 git clone https://github.com/JEISU20xx/robosys2024.git
 ```
+2\. ディレクトリに移動してください。
 
 ## morseコマンド
 ### 概要
