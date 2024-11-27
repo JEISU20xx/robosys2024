@@ -25,6 +25,7 @@ def main():
             elif c == 'n': print('ー・', end='')
             elif c == 'o': print('ーーー', end='')
             elif c == 'p': print('・ーー・', end='')
+            elif c == 'q': print('ーー・ー', end='')
             elif c == 'r': print('・ー・', end='')
             elif c == 's': print('・・・', end='')
             elif c == 't': print('ー', end='')
