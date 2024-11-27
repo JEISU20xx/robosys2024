@@ -1,6 +1,5 @@
 # robosys2024
 [![test](https://github.com/JEISU20xx/robosys2024/actions/workflows/test.yml/badge.svg)](https://github.com/JEISU20xx/robosys2024/actions/workflows/test.yml)
-
 ロボットシステム学講義用リポジトリ
 
 ## 必要なソフトウェア
