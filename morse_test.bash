@@ -7,7 +7,7 @@ ng(){
 	res=1
 }
 
-res = 0
+res=0
 
 out=$(echo "a" | ./morse)
 [ "${out}" = "・ー" ] || ng "$LINENO"
