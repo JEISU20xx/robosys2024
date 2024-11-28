@@ -18,7 +18,7 @@ cd robosys2024
 
 ## morseコマンド
 ### ✅️クイックスタート   
-以下のコマンドで`hello,world`をモールス信号に変換できます。
+クローン後、以下のコマンドで`hello,world`をモールス信号に変換できます。
 ```
 echo "hello,world" | python3 ./morse
 ```
