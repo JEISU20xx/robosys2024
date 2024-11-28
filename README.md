@@ -2,8 +2,8 @@
 [![test](https://github.com/JEISU20xx/robosys2024/actions/workflows/test.yml/badge.svg)](https://github.com/JEISU20xx/robosys2024/actions/workflows/test.yml)
 
 ## このリポジトリについて
-大学の講義(ロボットシステム学)で使用するものです。  
-対応する文字をモールス信号に変換するmorseコマンドを提供します。
+- 大学の講義(ロボットシステム学)で使用するものです。
+- 対応する文字をモールス信号に変換するmorseコマンドを提供します。
 
 ## ダウンロード方法
 
@@ -71,6 +71,9 @@ hello,world
 echo "SOS" | ./morse
 ・・・ ーーー ・・・ 
 ```
+### エラーハンドリング
+ - 未対応の文字(例:日本語、特殊文字)が入力された場合は無視されます。
+ - 空の入力の場合は何も出力されません。
 
 ## 動作環境
 ### 必要なソフトウェア
@@ -80,5 +83,8 @@ echo "SOS" | ./morse
 ### テスト環境
 - Ubuntu 22.04 LTS
 
-## Copyright
+## License
+このプロジェクトはBSD-3-Clauseライセンスの下で公開されています。
+
+## Copyright  
 © 2024 Junya Wada
