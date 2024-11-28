@@ -45,7 +45,7 @@ echo "hello,world" | python3 ./morse
 python3 ./morse
 hello,world
 ```
-#### 方法2：実行権限付与して実行
+#### 方法2：実行権限を付与して実行
 1\. 実行権限を付与
 ```
 chmod +x morse
