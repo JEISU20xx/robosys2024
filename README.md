@@ -17,7 +17,7 @@ cd robosys2024
 ```
 
 ## morseコマンド
-### クイックスタート   
+### ✅️クイックスタート   
 以下のコマンドで`hello,world`をモールス信号に変換できます。
 ```
 echo "hello,world" | python3 ./morse
@@ -82,7 +82,8 @@ echo "SOS" | ./morse
 - Ubuntu 22.04 LTS
 
 ## License
-このプロジェクトはBSD-3-Clauseライセンスの下で公開されています。
+‐ このプロジェクトはBSD-3-Clauseライセンスの下で公開されています。
+‐ 詳細は[LICENCE](https://github.com/JEISU20xx/robosys2024/blob/main/LICENSE)を確認してください。
 
 ## Copyright  
 © 2024 Junya Wada
