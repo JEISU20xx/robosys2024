@@ -13,8 +13,9 @@ $ git clone https://github.com/JEISU20xx/robosys2024.git
 
 ## morseコマンド
 ### ✅️クイックスタート   
-クローン後、以下のコマンドで`hello,world`をモールス信号に変換できます。
+クローン後、実行権限を付与し、以下のコマンドで`hello,world`をモールス信号に変換できます。
 ```
+$ chmod +x morse
 $ echo "hello,world" | ./morse
 ```
 ### 概要
@@ -35,12 +36,7 @@ $ echo "hello,world" | ./morse
 |.    |,    |?    |-    |/    |@    |     |     |     |     |
 
 ### 実行方法
-#### 方法1：実行後に文字を入力
-```
-$ python3 ./morse
-$ hello,world
-```
-#### 方法2：実行権限を付与して実行
+#### 方法1：実行権限を付与して実行
 1\. 実行権限を付与
 ```
 $ chmod +x morse
@@ -50,13 +46,13 @@ $ chmod +x morse
 $ ./morse
 $ hello,world
 ```
-#### 方法3：`echo`と`|(パイプ)`を使用する
+#### 方法2：`echo`と`|(パイプ)`を使用する
 ```
 $ echo "hello,world" | ./morse
 ```
 ### 実行例
 ```
-$ python3 ./morse
+$ ./morse
 $ hello,world
 ・・・・ ・ ・ー・・ ・ー・・ ーーー ーー・・ーー ・ーー ーーー ・ー・ ・ー・・ ー・・
 ```
@@ -68,7 +64,7 @@ $ echo "SOS" | ./morse
 ## 動作環境  
 ### 必要なソフトウェア
 - Python
-    - テスト済みバージョン3.7~3.12
+  - テスト済みバージョン3.7~3.12
 
 ### テスト環境
 - Ubuntu 22.04 LTS
