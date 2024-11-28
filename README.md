@@ -71,6 +71,9 @@ echo "SOS" | ./morse
 ```
 
 ## 動作環境
+- Ubuntu 20.04.06 LTS
+- Python 3.8.10
+
 ### 必要なソフトウェア
 - Python
     - テスト済みバージョン3.7~3.12
@@ -79,8 +82,8 @@ echo "SOS" | ./morse
 - Ubuntu 22.04 LTS
 
 ## License
-‐ このプロジェクトはBSD-3-Clauseライセンスの下で公開されています。
-‐ 詳細は[LICENCE](https://github.com/JEISU20xx/robosys2024/blob/main/LICENSE)を確認してください。
+- このプロジェクトはBSD-3-Clauseライセンスの下で公開されています
+- 詳細は[LICENCE](https://github.com/JEISU20xx/robosys2024/blob/main/LICENSE)を確認してください。
 
 ## Copyright  
 © 2024 Junya Wada
