@@ -82,7 +82,7 @@ echo "SOS" | ./morse
 - Ubuntu 22.04 LTS
 
 ## License
-- このプロジェクトはBSD-3-Clauseライセンスの下で公開されています
+- このリポジトリはBSD-3-Clauseライセンスの下で公開されています
 - 詳細は[LICENCE](https://github.com/JEISU20xx/robosys2024/blob/main/LICENSE)を確認してください。
 
 ## Copyright  
