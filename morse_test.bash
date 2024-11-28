@@ -1,6 +1,6 @@
 #!/bin/bash 
 # SPDX-FileCopyrightText: 2024 Junya Wada
-# SPDX-License-Identifier: GPL-3.0-only
+# SPDX-License-Identifier: BSD-3-Clause
 
 ng(){
 	echo ${1}行目が違う
