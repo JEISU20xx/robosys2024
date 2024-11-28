@@ -2,25 +2,20 @@
 [![test](https://github.com/JEISU20xx/robosys2024/actions/workflows/test.yml/badge.svg)](https://github.com/JEISU20xx/robosys2024/actions/workflows/test.yml)
 
 ## このリポジトリについて
-- 大学の講義(ロボットシステム学)で使用するものです。
+- 大学の講義(ロボットシステム学)で作成したものです。
 - 対応する文字をモールス信号に変換するmorseコマンドを作成しました。
 
-## クローン方法
-
-1\. 以下のコマンドでリポジトリをクローンしてください。
+## クローン方法  
+以下のコマンドでリポジトリをクローンしてください。
 ```
-git clone https://github.com/JEISU20xx/robosys2024.git
-```
-2\. リポジトリのディレクトリに移動してください。
-```
-cd robosys2024
+$ git clone https://github.com/JEISU20xx/robosys2024.git
 ```
 
 ## morseコマンド
 ### ✅️クイックスタート   
 クローン後、以下のコマンドで`hello,world`をモールス信号に変換できます。
 ```
-echo "hello,world" | python3 ./morse
+$ echo "hello,world" | ./morse
 ```
 ### 概要
  - 入力された半角アルファベットと数字、特定の記号をモールス信号に変換します。
@@ -42,36 +37,36 @@ echo "hello,world" | python3 ./morse
 ### 実行方法
 #### 方法1：実行後に文字を入力
 ```
-python3 ./morse
-hello,world
+$ python3 ./morse
+$ hello,world
 ```
 #### 方法2：実行権限を付与して実行
 1\. 実行権限を付与
 ```
-chmod +x morse
+$ chmod +x morse
 ```
 2\. 実行し、文字を入力
 ```
-./morse
-hello,world
+$ ./morse
+$ hello,world
 ```
 #### 方法3：`echo`と`|(パイプ)`を使用する
 ```
-echo "hello,world" | ./morse
+$ echo "hello,world" | ./morse
 ```
 ### 実行例
 ```
-python3 ./morse
-hello,world
+$ python3 ./morse
+$ hello,world
 ・・・・ ・ ・ー・・ ・ー・・ ーーー ーー・・ーー ・ーー ーーー ・ー・ ・ー・・ ー・・
 ```
 ```
-echo "SOS" | ./morse
+$ echo "SOS" | ./morse
 ・・・ ーーー ・・・ 
 ```
 
 ## 動作環境
-- Ubuntu 20.04.06 LTS
+- Ubuntu 22.04 LTS
 - Python 3.8.10
 
 ### 必要なソフトウェア
@@ -81,7 +76,7 @@ echo "SOS" | ./morse
 ### テスト環境
 - Ubuntu 22.04 LTS
 
-## License
+## LICENCE
 - このリポジトリはBSD-3-Clauseライセンスの下で公開されています。
 - 詳細は[LICENCE](https://github.com/JEISU20xx/robosys2024/blob/main/LICENSE)を確認してください。
 
