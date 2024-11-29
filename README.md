@@ -50,7 +50,7 @@ $ echo "hello,world" | ./morse
 ### 実行例
 ```
 $ ./morse
-$ hello,world
+hello,world
 ・・・・ ・ ・ー・・ ・ー・・ ーーー ーー・・ーー ・ーー ーーー ・ー・ ・ー・・ ー・・ 
 ```
 ```
