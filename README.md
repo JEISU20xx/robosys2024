@@ -38,19 +38,13 @@ $ git clone https://github.com/JEISU20xx/robosys2024.git
 ```
 $ chmod +x morse
 ```
-##### 方法1：実行して入力
-```
-$ ./morse
-$ hello,world
-```
-##### 方法2：`echo`と`|(パイプ)`を使用する
+####`echo`と`|(パイプ)`を使用する
 ```
 $ echo "hello,world" | ./morse
 ```
 ### 実行例
 ```
-$ ./morse
-hello,world
+$ echo "hello,world" | ./morse
 ・・・・ ・ ・ー・・ ・ー・・ ーーー ーー・・ーー ・ーー ーーー ・ー・ ・ー・・ ー・・ 
 ```
 ```
