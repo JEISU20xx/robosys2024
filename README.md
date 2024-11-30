@@ -38,7 +38,7 @@ $ git clone https://github.com/JEISU20xx/robosys2024.git
 ```
 $ chmod +x morse
 ```
-####`echo`と`|(パイプ)`を使用する
+#### `echo`と`|(パイプ)`を使用する
 ```
 $ echo "hello,world" | ./morse
 ```
